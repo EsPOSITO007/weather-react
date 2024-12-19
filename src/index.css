@@ -1,0 +1,57 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to bottom, #87ceeb, #f0f8ff); */
+  background-image: url(./assets/idduki.webp);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(249, 0, 0, 0.2);
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #fffcfc;
+  margin-bottom: 20px;
+}
+
+.loading, .error {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.weather h2 {
+  margin: 0;
+  color: #948f8f;
+  font-size: 1.8rem;
+}
+
+.weather p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #9e7373;
+}
+
+.weather img {
+  width: 100px;
+  height: auto;
+}
